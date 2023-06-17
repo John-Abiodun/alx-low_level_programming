@@ -3,7 +3,7 @@
 
 /**
  * main - prints "the sizes of various types based on computer"
- *
+ *Return: Always 0.
  *
  */
 
