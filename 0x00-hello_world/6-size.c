@@ -2,8 +2,8 @@
 
 
 /**
- * main - prints "the size of various types based on the computer it is compiled and run on"
- * Return: Always 0.
+ * main - prints "the sizes of various types based on computer"
+ *
  *
  */
 
