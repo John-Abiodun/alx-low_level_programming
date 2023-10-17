@@ -18,7 +18,6 @@ int main(int argc, char *argv[])
 		b1 = atoi(argv[1]);
 		b2 = atoi(argv[2]);
 		printf("%d\n", b1 * b2);
-	
 	}
 	else
 	{
