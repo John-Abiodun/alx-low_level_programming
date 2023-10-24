@@ -33,13 +33,19 @@ dog_t *new_dog(char *name, float age, char *owner)
 			free(max_dog);
 			return (NULL);
 		}
-	max_dog->owner = malloc(sizeof(char) * own_l);
-
-	if (max_dog->owner == NULL)
-	{
+		
+		max_dog->owner = malloc(sizeof(char) * own_l);
+		
+		if (max_dog->owner == NULL)
+		{
 		free(max_dog->name);
 		free(max_dog);
 		return (NULL);
+		}
+
+		max_dog->name = _strcpy(max_dog->name, name);
+		max_dog->owner = _strcpy(max_dog->owner, owner);
+		max_dog->age = age;
 	}
 
 	return (max_dog);
@@ -70,7 +76,7 @@ int _strlen(char *s)
  *
  * Return: the pointer to dest
  */
-char *_strcoy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
