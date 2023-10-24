@@ -1,7 +1,8 @@
 #ifndef _HEADER_
 #define _HEADER_
 
-/**struct dog - dog attributes
+/**
+ * struct dog - dog attributes
  * @name: dog's name
  * @age: dog's age
  * @owner: dog's owner
