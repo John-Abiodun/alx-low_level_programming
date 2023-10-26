@@ -5,12 +5,12 @@
  * _strdup - duplicate a string
  * @str: string to be duplicated
  *
- * Retunr: string duplicated
+ * Return: string duplicated
  */
 
 char *_strdup(char *str)
 {
-	int a = 0, i =1;
+	int a = 0, i = 1;
 	char *s;
 
 	if (str == NULL)
