@@ -8,7 +8,7 @@
  * On error, -1 is returned, the errno is set appropriately
  */
 
-itn_putchar(char c)
+int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
